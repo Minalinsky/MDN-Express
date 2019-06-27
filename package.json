@@ -2,7 +2,7 @@
   "name": "17-express-web",
   "version": "0.0.0",
   "engines": {
-    "node": "10.15.1"
+    "node": "10.16.0"
   },
   "private": true,
   "scripts": {
@@ -19,7 +19,7 @@
     "helmet": "^3.18.0",
     "http-errors": "~1.6.2",
     "moment": "^2.24.0",
-    "mongoose": "^5.4.13",
+    "mongoose": "^5.6.1",
     "morgan": "^1.9.1",
     "pug": "^2.0.4"
   },

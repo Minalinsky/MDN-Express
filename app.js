@@ -14,9 +14,9 @@ var helmet = require('helmet');
 var app = express();
 
 
-// Set up mongoose connection
+// configurando mongoose e conectando ao MongoDB de Alyson
 var mongoose = require('mongoose');
-var dev_db_url = 'mongodb+srv://cooluser:coolpassword@cluster0-mbdj7.mongodb.net/local_library?retryWrites=true'
+var dev_db_url = 'mongodb+srv://alyson:aly1907@alysoncluster-u4usx.mongodb.net/test?retryWrites=true&w=majority'
 var mongoDB = process.env.MONGODB_URI || dev_db_url;
 mongoose.connect(mongoDB, { useNewUrlParser: true });
 mongoose.Promise = global.Promise;

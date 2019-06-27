@@ -2,16 +2,18 @@ extends layout
 
 block content
   h1= title
-  p Welcome to #[em LocalLibrary], a very basic Express website developed as a tutorial example on the Mozilla Developer Network.
+  h4 Alyson Matheus Maruyama Nascimento (8532269) e Lucas Augusto (10550198)
+  p Esta #[em LocalLibrary] é um site básico desenvolvido utilizando Express com o tutorial do MDN para a disciplina de Desenvolvimento Web
+  
 
 
   h1 Dynamic content
 
   if error
-    p Error getting dynamic content.
+    p Erro ao carregar conteúdo dinâmico.
   else
 
-    p The library has the following record counts:
+    p A biblioteca tem em seu registro:
 
     ul
       li #[strong Books:] !{data.book_count}
