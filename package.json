@@ -1,0 +1,37 @@
+{
+  "name": "17-express-web",
+  "version": "0.0.0",
+  "engines": {
+    "node": "10.15.1"
+  },
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "devstart": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "async": "^2.6.2",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.4",
+    "debug": "~2.6.9",
+    "express": "^4.16.4",
+    "express-validator": "^5.3.1",
+    "helmet": "^3.18.0",
+    "http-errors": "~1.6.2",
+    "moment": "^2.24.0",
+    "mongoose": "^5.4.13",
+    "morgan": "^1.9.1",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "description": "exercicio 17 da disciplina WEB. Implementacao do MDN sobre Express e NodeJS",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Minalinsky/MDN-Express.git"
+  },
+  "author": "Alyson Matheus Maruyama Nascimento",
+  "license": "ISC"
+}
