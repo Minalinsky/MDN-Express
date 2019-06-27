@@ -6,10 +6,7 @@ Essa é uma implementação de uma biblioteca utilizando Express e integrada ao 
 Além da implementação local utilizando o tutorial como guia, o sistema de Biblioteca foi integrado ao Heroku, e a aplicação pode ser encontrada rodando na seguinte URL: https://polar-fortress-58446.herokuapp.com/catalog
 
 **OBS: ** Para submeter alterações ao Heroku, realizamos um push no remote chamado *heroku* no git (git push heroku master). Para abrir o aplicatovo rodando no heroku no navegador, usamos heroku open
-#### Comandos Heroku
-	Comandos usados para configurar e otimizar o heroku (Não são necessários para rodar a aplicação)
-	**heroku config:set NODE_ENV='production'** -> melhoria na performance e geração de menos erros verbose
-	**heroku config:set MONGODB_URI='mongodb+srv://alyson:<minhaSenhaDoClusterMongo>@alysoncluster-u4usx.mongodb.net/test?retryWrites=true&w=majority'** -> Separa também a DB para "production"
+#### Configuração do Heroku
 	**heroku config** -> Se quisermos inspecionar como estão as configurações do heroku
 
 ## Rodando Servidor 
